@@ -1,0 +1,197 @@
+.header-padding{
+    padding:0 3% 0 3%;
+}
+#header{
+    margin: auto;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+#subMenu{
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    height: 50px; 
+}
+
+.rf-main-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    float: left;
+    z-index: 5;
+    position: relative;
+}
+
+.nav-menu{
+    z-index: -1;
+    height: 50px;
+}
+
+.menu{
+    margin-left: 13%;
+    float: left;
+    width: 700px;
+}
+
+.menu-sec{
+    float: right;
+    width: 267px;
+}
+
+.menu-item{
+    float: left;
+    color: transparent;
+    margin-left: 5%;
+    text-decoration: none;   
+}
+
+.menu-item  a{
+    font-size: 14px;
+    font-weight: 600 !important ;
+    font:  14px 'Montserrat'; 
+    
+    color:  #7683A8;
+    text-decoration: none;
+}
+.menu-item  a .material-icons{
+  margin-top: -15px;
+    font-size: 18px;
+    float: right;
+    align-items: center;
+    line-height: 50px;
+    cursor: pointer;
+
+}
+.menu-item a:hover{
+    color: #5690FF;
+    transition: color 0.3s ease-in-out !important;
+    transition-property: color !important;
+    transition-duration: 0.5s !important;
+    transition-timing-function: ease-in-out !important;
+    transition-delay: 0s !important;
+}
+
+
+.color-blue{
+    color: #387DFF
+}
+.color-blue:hover{
+    color:  #545F7E;
+    transition: color 0.3s ease-in-out !important;
+    transition-property: color !important;
+    transition-duration: 0.5s !important;
+    transition-timing-function: ease-in-out !important;
+    transition-delay: 0s !important;
+}
+
+.sidenav .material-icons{
+   
+    font-size: 30px;
+    position: relative;
+    align-items: center;
+    line-height: 50px;
+    cursor: pointer;
+    
+
+}
+.sidenav {
+    display: none;
+    float: right;
+    height: 50px;
+   line-height: 50px;
+   margin-top: -53px;  
+}
+
+.logo-xs{
+    display: none;
+}
+.cls__1{opacity:0.47;fill:#5690FF;enable-background:new    ; }
+.cls__2{fill:url(#SVGID_1_);}
+.cls__3{fill:(#363F5A);}
+
+.cls__11{fill:#5690FF;opacity:0.47;enable-background:new;}.cls__22{fill:url(#linear-gradient1);}
+
+@media only screen and (max-width: 1564px) {
+    .menu{
+        margin-left: 7%;  
+        width: 600px;
+  
+    }
+    .menu-item{
+        float: left;
+        color: transparent;
+        margin-left: 3%;
+        text-decoration: none;
+        
+    }
+
+}
+
+@media only screen and (max-width: 1371px) {
+    .menu{
+        margin-left: 0;  
+        width: 600px;
+  
+    }
+}
+
+
+
+@media only screen and (max-width: 1275px){
+    .menu-item  a .material-icons{
+        margin-top: 1px;
+        }
+    .menu{
+        display: none;
+    }
+    .menu-sec{
+        float: unset;
+        margin: auto;
+        position: relative;
+        display: inline-block;
+        width: 240px;
+        line-height: 50px;
+       
+    }
+  .menu-sec-div{
+      padding-left: 0%;
+      width: 300px;
+      margin: auto;
+      position: relative;
+  }
+    .sidenav{
+    
+        display: inline-block;
+    }
+}
+
+
+
+@media only screen and (max-width: 900px){
+    .rf-main-logo{
+        display: none;
+    }
+    .logo-xs{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        float: left;
+        z-index: 5;
+        position: relative;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .sidenav {
+       margin-top: 0;  
+    }
+    .menu-sec-div{
+        display: none;
+    }
+}

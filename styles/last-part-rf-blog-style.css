@@ -1,0 +1,119 @@
+#last-part-rf-blog{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+#title-part-blog{
+   margin: auto;
+    width: 800px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 600;
+    font-variant: normal;
+    font-style: normal;
+letter-spacing: 0px;
+color: #363F5A;
+opacity: 1;
+padding-bottom: 50px;
+}
+
+#blog-content{
+
+    left: 50%;
+    right: 50%;
+    margin: auto;
+    width: 349px;
+    height: 315px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0047CE33;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: center;
+}
+.blog-img-last-part{
+    width: 100%;
+    position: relative;
+
+}
+.content-blog-img-last-part{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-variant: normal;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #363F5A;
+    opacity: 1;
+}
+
+#left-side-part-last-blog{
+    margin-top: 380px;
+    float: left;
+}
+#right-side-part-last-blog{
+    margin-top: 100px;
+    float: right;
+}
+#left-side-part-last-blog-img{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -81px;
+}
+
+
+#right-side-part-last-blog-img{
+    margin-top: 50px;
+    margin-left:349px;
+    position: absolute;
+}
+#finish{
+    width: 100%;
+height: 298px;
+background: #6291F7 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#btn-part-last-blog{
+    margin-top: 40px;
+    background: linear-gradient(180deg, #5690FF 0%, #387DFF 100%) 0% 0%  ;
+    border: none;
+box-shadow: 0px 3px 9px #387DFF80;
+border-radius: 25px;
+opacity: 1;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #545F7E;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+  margin-right: 70px;
+}
+@media screen and (max-width: 800px){
+    #title-part-blog{
+        width: 500px;
+        font-size: 23px;
+        line-height: 36px;
+     
+    }
+  
+}
+
+@media screen and (max-width: 550px){
+    #title-part-blog{
+        width: 330px;
+     
+    }
+    #left-side-part-last-blog, #right-side-part-last-blog,#left-side-part-last-blog-img,#right-side-part-last-blog-img{
+        display: none;
+    }
+    #btn-part-last-blog{
+      margin-right: 0px;
+    }
+  
+}
+

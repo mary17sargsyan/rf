@@ -1,0 +1,342 @@
+  .slide {
+      position: relative;
+      width: 100%;
+      height: auto;
+      background-image: url("../img/Path-13641.svg");
+  
+  }
+  #slide-xs{
+      display: none;
+      width: 100%;
+      height: auto;
+      background-image: url("../img/Path-13641.svg");
+      min-height: 1000px;
+  }
+  .for-text{
+      position: absolute;
+      display: inline-block;
+      width: 17%;
+      height: 690px;
+      background: url("../img/all/Mask%20Group%201337.svg") no-repeat ;
+      z-index: 0;
+
+  }
+  .center{
+    text-align: center;
+    font-style: medium;
+    font-weight: 500;
+    padding-top: 10px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: white;
+
+  }
+  .for-text-2{
+    margin-left:17%;
+    position: sticky;
+    display: inline-block;
+    width:913px;
+    height: 690px;
+    background: url("../img/all/Mask%20Group%201337.svg") no-repeat ;
+    z-index: 1;
+
+}
+
+  .for-img{
+      margin-top:52px;
+      position: absolute;
+      margin-left: -180px;
+      display: inline;
+      width: 512px;
+      height: 620px;
+      z-index: 2;
+      background:  url('../img/Group/Group-14987.png')  no-repeat padding-box;
+  }
+
+  .into-img{
+    margin-top: 53px;
+    height: 520px;
+    margin-left: 85px;
+    opacity: 1;
+    z-index: 1;
+    background:  url('../img/MaskGroup/MaskGroup1365.png')  no-repeat padding-box;
+  }
+  
+  .slide-text{
+    margin: 120px 0 0 0;
+    width: 492px;
+    height: 260px;
+  }
+  .text{
+    line-height: 63px;
+    color: #fff;
+    letter-spacing: 0px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    width: 492px;
+    height: 260px;
+  }
+  .white-button{
+
+    width: 214px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0px 3px 9px #0052E01A;
+    border: 1px solid #EEF5FF;
+    border-radius: 25px;
+    font-style: medium;
+    font-weight: 400;
+    opacity: 1;
+    line-height: 48px;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #545F7E;
+  }
+  #text-medium{
+    display: inline;
+    margin-left: 60px;
+    background-color: transparent;
+    font-style: medium;
+    font-weight: 500;
+   
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: white;
+  }
+  #watch{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    width: 25px;
+    height: 48px;
+    align-items: center;
+    line-height: 48px;
+  
+  }
+  #left{
+    margin-top: 3px;
+    float: left;
+    height: 26px;
+    z-index: 0;
+  }
+  #right{
+    height: 25px;
+    float:right;
+  }
+  #watch img{
+    position: absolute;
+    margin-top: 33px;
+  }
+  #p-bigger-font{
+    letter-spacing: 0px;
+    font-weight:700 !important;
+    font-size: 60px;
+  }
+  #slider-bottom{
+    margin-top: 560px;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+
+
+  }
+  #slide-buttom-image{
+    align-items: center;
+    z-index: 200000;
+    width:44.3%;
+    min-width: 500px;
+    height: 60px;
+    margin: 10px auto auto auto ;
+    background:  url("../img/Group7721.svg") no-repeat;
+  
+  -webkit-animation: slide 20s linear infinite;
+  }
+  @-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -700px 0; }
+}
+  @media screen and (max-width: 1540px){
+    .for-text{
+        width: 20%;
+
+    }
+
+   .for-text-2{
+        margin-left: 7%;
+        width: 80%
+
+   }
+
+   .slide-text{
+    margin: 120px 0 0 150px;
+    width: 492px;
+    height: 260px;
+  }
+
+
+  
+  }
+  @media screen and (max-width: 1360px){
+
+    #slide-buttom-image{
+
+      min-width: 600px;
+    }
+    .for-text-2{
+      margin-left:1px;
+    }
+    .for-text{
+      position: absolute;
+      display: inline-block;
+      width: 1px;
+      height: 690px;
+      background: url("../img/all/Mask%20Group%201337.svg") no-repeat ;
+      z-index: 0;
+
+  }
+  }
+
+  @media screen and (max-width: 1270px){
+    .slide{
+      display: none;
+    }
+    
+    #slide-xs{
+      max-width: 100%;
+      display: block;
+      overflow: hidden;
+    }
+.oval{
+  position: absolute;
+  width: 100%;
+  height:490px;
+  border-radius:0 0 30% 30%;
+  background-color:rgba(187, 182, 243,0.1);
+
+}
+    
+
+.text{
+      margin: 30px auto auto auto;
+      width: 400px;
+      height: 100px;
+      text-align: center;
+      line-height: 50px;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+      font-size: 36px;
+      
+    }
+    #p-bigger-font{
+      letter-spacing: 0px;
+      font-size: 46px;
+    }
+    .img-for{
+      margin-left: auto;
+      margin-right: auto;
+      width:400px;
+      margin: auto;
+    }
+    #test-img{
+      
+      display: block;
+      position: absolute;
+      margin-top: 120px;
+      width: 400px;
+      height: 420px;
+     
+    }
+    .margin-auto{
+      height: 550px;
+      width: 90%;
+ 
+      margin: auto;
+    }
+    #test-img2{
+      position: relative;
+      margin: 180px 10px auto 60px;
+      width: 270px;
+      height: 370px;
+      z-index: 5;
+    }
+    .white-button{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    #text-medium{
+      align-items: center;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #watch{
+      position: relative;
+      display: inline-block;
+      margin-top: 0px;
+      margin-right: 16px;
+      width: 25px;
+      height: 48px;
+      align-items: center;
+      line-height: 18px;
+    
+    }
+    #slider-bottom{
+      margin-top: 0px;
+      position: absolute;
+      height: 50px;
+      width: 100%;
+  
+  
+    }
+    #slide-buttom-image{
+      align-items: center;
+
+      min-width: 400px;
+     
+    }
+
+  }
+
+
+  @media screen and (max-width: 600px){
+    #slide-xs{
+     min-height: 950px;
+    }
+    #slide-buttom-image{
+
+      min-width: 300px;
+    }
+    
+    #test-img{
+      
+      width: 350px;
+     
+     
+    }
+    #test-img{
+      margin-left: 20px;
+      width: 350px;
+      height: 370px;
+     
+    }
+    #test-img2{
+      margin: 180px 10px auto 90px;
+      width: 220px;
+      height: 320px;
+    }
+    
+.text{
+ 
+  width: 350px;
+  
+
+  }
+}

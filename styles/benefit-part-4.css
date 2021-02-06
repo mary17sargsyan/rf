@@ -1,0 +1,222 @@
+.benefit-part-4{
+    width: 100%;
+    height: auto;
+     min-height: 662px;
+    background: url('../img/all/Rectangle\ 13231.svg') repeat padding-box;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+
+.benefit-container{
+        align-items: center;
+        justify-content: center;
+        display:grid;
+        grid-template-columns:395px 395px 395px ;
+        grid-template-rows: auto;
+        width: 1250px;
+        margin: auto;
+        height: auto;
+        column-gap: 2em;
+       
+        
+}
+.benefit-container-item{
+
+    position: relative;
+    padding-left: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0037A033;
+    border-radius: 10px;
+    opacity: 1;
+    margin-top: 90px;
+    height: auto;
+    padding-bottom: 20px;    z-index: 1;
+  
+}
+
+.benefit-container-img{
+    margin-top: -35px;
+}
+
+.benefit-item-title{
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #363F5A;
+    opacity: 1;
+}
+
+
+.benefit-item-text{
+    width: 90%;
+    text-align: left;
+    font-variant: normal;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: medium;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #545F7E;
+    opacity: 1;
+}
+
+#venn-diagram{
+
+    margin-left: 75%;
+    margin-top: -100px;
+    position: absolute;
+
+}
+
+#atomic-energy{
+    margin-left: 14%;
+    margin-top:14px;
+    position: absolute;
+
+}
+
+#math{
+    margin-left: 82%;
+    margin-top: 320px;
+    position: absolute;
+}
+
+#function{
+    margin-left: 28%;
+    margin-top: 502px;
+    position: absolute;
+}
+@media screen  and (max-width: 1890px){
+
+    #venn-diagram{
+        margin-left: 75%;
+    }
+    
+    #atomic-energy{
+        margin-left: 13%;
+        margin-top:14px;
+    }
+    
+    #math{
+        margin-left: 84%;
+    }
+}
+
+@media screen  and (max-width: 1590px){
+
+    #venn-diagram{
+        margin-left: 76%;
+    }
+    
+    #atomic-energy{
+        margin-left: 5%;
+        margin-top:14px;
+    }
+    
+    #math{
+        margin-left: 90%;
+    }
+}
+@media screen  and (max-width: 1890px){
+
+
+    #atomic-energy{
+        margin-left: 13%;
+        margin-top:14px;
+    }
+    
+    #math{
+        margin-left: 84%;
+    }
+}
+
+@media screen  and (max-width: 1267px){
+    #benefit-title{
+        font-size: 26px;
+        max-width: 500px;
+        min-width: 500px;
+    }
+    #venn-diagram{
+
+        margin-left: 79%;
+        margin-top: -100px;
+        position: absolute;
+    
+    }
+    .benefit-container{
+        
+        grid-template-columns:395px;
+        grid-template-rows: auto;
+        width: 395px;
+        margin: auto;
+        height: auto;
+
+        
+}
+.benefit-container-item{
+    margin-top: 50px;
+    padding-bottom: 10px;    z-index: 1;
+  
+}
+
+}
+
+@media screen  and (max-width: 600px){
+    #benefit-title{
+        font-size: 26px !important;
+        max-width: 300px;
+        min-width: 300px;
+    }
+    #venn-diagram{
+display: none;
+    }
+    #atomic-energy{
+        display: none;
+    
+    }
+    
+    #math{
+        display: none;
+    }
+    
+    #function{
+        display: none;
+    }
+    .benefit-container{
+        
+        grid-template-columns:335px;
+        grid-template-rows: auto;
+        width: 335px;
+        margin: auto;
+        height: auto;
+
+        
+}
+.benefit-container-item{
+    margin-top: 50px;
+    padding-bottom: 10px;    z-index: 1;
+  
+}
+
+.benefit-item-title{
+
+    font-size: 17px;
+}
+
+.benefit-item-text{
+    width: 95%;
+    font-size: 14x;
+ 
+}
+
+
+.benefit-container-item{
+    padding-left: 25px;
+}
+
+.benefit-container-item img{
+    padding-left:30px;
+}
+}
